@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinzent Portfolio</title>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+
+    html{
+      scroll-behavior: smooth;
+    }
+    .profile-pic {
+      width: 280px;
+      height: 280px;
+      border-radius: 9999px;
+      object-fit: cover;
+      border: 6px solid black;
+    }
+  </style>
+</head>
+<!-- HOME -->
+ <section id="home">
+<body class="bg-white min-h-screen">
+
+
+  
+  <nav class="flex justify-between items-center px-8 py-4 border-b border-gray-200">
+    <h1 class="text-2xl font-bold">VINZENT</h1>
+    <div class="space-x-6">
+      <a href="#home" class="text-black hover:underline">HOME</a>
+      <a href="#about" class="text-black hover:underline">ABOUT ME</a>
+      <a href="#contact" class="text-black hover:underline">CONTACT</a>
+    </div>
+  </nav>
+
+ 
+  <div class="flex flex-col md:flex-row items-center justify-center h-[calc(100vh-80px)] px-8 py-8 text-center md:text-left">
+    
+    
+    <div class="max-w-xl mb-8 md:mb-0 md:mr-12">
+      <h2 class="text-5xl font-bold text-gray-800 mb-2">Hi! I'm Vinzent</h2>
+      <h3 class="text-2xl font-semibold text-[#7d6b6b] underline">I'm a Student</h3>
+      <p class="text-md text-gray-700 mt-4">
+        Hello! My name is Vinzent Gabriel Pratama Putra, you can call me Vinzent. I am a student in SMKN 1 Purwosari, Pasuruan, East Java.
+      </p>
+      <div class="flex gap-4 mt-6 justify-center md:justify-start">
+        <button class="bg-black text-white px-5 py-2 rounded-full hover:bg-gray-800">About me</button>
+        <button class="bg-black text-white px-5 py-2 rounded-full hover:bg-gray-800">Contact</button>
+      </div>
+    </div>
+
+    
+    <img src="fot.jpg" alt="Vinzent" class="profile-pic">
+  </div>
+
+  </section>
+
+<!-- About Me -->
+
+<section id="about"class="px-6 py-12 bg-gray-50">
+  <h2 class="text-3xl font-bold text-center mb-10">About Me</h2>
+  
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+    
+
+    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+      <img src="fot.jpg" class="w-full h-48 object-cover" alt="About Image">
+      <div class="p-6">
+        <h5 class="text-xl font-semibold mb-2">Biodata</h5>
+        <p class="text-gray-700 text-sm mb-4">
+          Name: Vinzent Gabriel Pratama Putra<br>
+          School: SMKN 1 Purwosari<br>
+          Age: 16 tahun
+        </p>
+      </div>
+    </div>
+
+ 
+    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+      <img src="jawa.jpg" class="w-full h-48 object-cover" alt="Skills Image">
+      <div class="p-6">
+        <h5 class="text-xl font-semibold mb-2">Home</h5>
+        <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+          <li>Place of Birth: Blitar</li>
+         <li>Date of Birth: June 11, 2009</li>
+          <li>Address: Pandaan, Pasuruan, East Java, Indonesia</li>
+        </ul>
+       
+      </div>
+    </div>
+
+    
+    <div class="bg-white rounded-xl shadow-md overflow-hidden">
+      <img src="coding.jpg" class="w-full h-48 object-cover" alt="Hobbies Image">
+      <div class="p-6">
+        <h5 class="text-xl font-semibold mb-2">Hobbies</h5>
+        <p class="text-gray-700 text-sm mb-4">
+          <ul class="list-disc list-inside text-gray-700 text-sm space-y-1">
+          <li>Coding</li>
+          <li>Playing SepakBola</li>
+          <li>Fishing</li>
+        </ul>
+        </p>
+        
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="bg-white py-16 px-6">
+  <div class="max-w-3xl mx-auto text-center">
+    <h2 class="text-4xl font-bold mb-6">Contact Me</h2>
+    <p class="text-gray-600 mb-10">
+      Have a question, want to collaborate, or just say hi? Fill out the form below!
+    </p>
+
+    <form class="space-y-6 text-left">
+      
+      <div>
+        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+        <input type="text" id="name" name="name" required
+          class="mt-1 w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-black">
+      </div>
+
+     
+      <div>
+        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+        <input type="email" id="email" name="email" required
+          class="mt-1 w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-black">
+      </div>
+
+     
+      <div>
+        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+        <textarea id="message" name="message" rows="5" required
+          class="mt-1 w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-black"></textarea>
+      </div>
+
+
+      <div class="text-center">
+        <button type="submit"
+          class="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">Send Message</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+</body>
+</html>

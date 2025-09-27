@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web 17 Agustus</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body{
+            scroll-behavior: smooth;
+        }
+      .hero {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px 20px;
+      }
+
+      .hero-text {
+        flex: 1;
+        padding: 20px;
+      }
+
+      .hero-image img {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .card-img-top {
+        height: 200px;
+        object-fit: cover;
+      }
+
+.galeri-img {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.galeri-img img {
+  transition: transform 0.4s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.galeri-img:hover img {
+  transform: scale(1.1);
+}
+
+
+
+    </style>
+
+<script>
+     function checkForm(){
+       var username = document.getElementById("nama").value;
+       var email = document.getElementById("email").value;
+       var pesan = document.getElementById("pesan").value;
+
+      if (!email.includes("@"))
+      {
+        alert ("Mohon masukkan Email yang benar! (menggunakan @)")
+      }     
+
+       else {
+        alert("Pengiriman pesan sukses")
+       }
+
+     }
+</script>
+
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-danger navbar-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="#">MERDEKA</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link fw-medium" href="#beranda">Beranda</a></li>
+            <li class="nav-item"><a class="nav-link fw-medium" href="#sejarah">Sejarah</a></li>
+            <li class="nav-item"><a class="nav-link fw-medium" href="#lomba">Lomba</a></li>
+            <li class="nav-item"><a class="nav-link fw-medium" href="#galeri">Galeri</a></li>
+            <li class="nav-item"><a class="nav-link fw-medium" href="#tokoh">Tokoh Nasional</a></li>
+            <li class="nav-item"><a class="nav-link fw-medium" href="#ucapan">Ucapan</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- berrranda -->
+     <section id="beranda">
+    <div class="container hero">
+      <div class="hero-image">
+        <img src="assets/merdeka.jpeg" alt="Kemerdekaan Indonesia">
+      </div>
+      <div class="hero-text">
+        <h1 class="fw-bold mb-3">Selamat Datang di Website Kemerdekaan Indonesia!</h1>
+        <p class="fs-5">Rayakan semangat perjuangan para pahlawan dengan mengenang sejarah, mengenal tokoh bangsa, dan mengikuti berbagai perlombaan seru!</p>
+      </div>
+    </div>
+     </section>
+
+
+    <!-- Sejarah -->
+     <section id="sejarah">
+    <div class="bg-light py-5 text-center">
+      <h2 class="display-5 fw-bold">Perjuangan Bangsa Indonesia</h2>
+      <p class="lead">Dari masa penjajahan hingga proklamasi kemerdekaan</p>
+    </div>
+
+    <div class="container my-5">
+      <div class="row g-4">
+        <div class="col-md-6">
+          <h4 class="fw-bold">Masa Penjajahan</h4>
+          <p>Indonesia mengalami masa penjajahan oleh Portugis, Belanda, dan Jepang. Rakyat mengalami penderitaan, kerja paksa, dan penindasan yang memicu semangat perjuangan kemerdekaan.</p>
+        </div>
+        <div class="col-md-6">
+          <h4 class="fw-bold">Proklamasi Kemerdekaan</h4>
+          <p>Pada 17 Agustus 1945, Soekarno dan Mohammad Hatta memproklamasikan kemerdekaan Indonesia. Momen ini menjadi tonggak sejarah bagi berdirinya negara yang merdeka dan berdaulat.</p>
+        </div>
+      </div>
+
+      <div class="text-center my-5">
+        <img src="assets/proklamasi.jfif" class="img-fluid rounded shadow" alt="Proklamasi Kemerdekaan">
+        <p class="text-muted mt-2">Proklamasi Kemerdekaan Indonesia, 17 Agustus 1945</p>
+      </div>
+    </div>
+    </section>
+    <!-- Lomba -->
+     <section id="lomba">
+    <div class="container my-5">
+      <h2 class="text-center text-danger mb-4">Daftar Lomba Populer</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="assets/balap.jpeg" class="card-img-top" alt="Balap Karung">
+            <div class="card-body">
+              <h5 class="card-title">Lomba Balap Karung</h5>
+              <p class="card-text">Salah satu lomba tradisional yang seru dan menghibur, di mana peserta melompat dalam karung untuk mencapai garis finish.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="assets/makank.jpg" class="card-img-top" alt="Makan Kerupuk">
+            <div class="card-body">
+              <h5 class="card-title">Lomba Makan Kerupuk</h5>
+              <p class="card-text">Peserta berlomba menghabiskan kerupuk yang digantung tanpa menggunakan tangan. Lomba ini selalu menarik perhatian warga.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            <img src="assets/panjat.jfif" class="card-img-top" alt="Panjat Pinang">
+            <div class="card-body">
+              <h5 class="card-title">Lomba Panjat Pinang</h5>
+              <p class="card-text">Lomba ekstrem dan lucu yang menguji kerja sama tim dan ketangguhan dalam memanjat batang pinang yang licin untuk meraih hadiah di puncaknya.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Galeri -->
+ <section id="galeri">
+<div class="container my-5">
+  <h2 class="text-center text-danger mb-4">Galeri Kemerdekaan</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="galeri-img shadow-sm">
+        <img src="assets/upacara.jfif" alt="Upacara Bendera" class="img-fluid">
+      </div>
+    </div>
+    <div class="col">
+      <div class="galeri-img shadow-sm">
+        <img src="assets/pawai.jfif" alt="Pawai Kemerdekaan" class="img-fluid">
+      </div>
+    </div>
+    <div class="col">
+      <div class="galeri-img shadow-sm">
+        <img src="assets/lomba.jfif" alt="Lomba 17-an" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!-- Tokoh Nasional -->
+ <section id="tokoh">
+<div class="container my-5">
+  <h2 class="text-center text-danger mb-4">Tokoh Nasional</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    
+
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/soekarno.jfif" class="card-img-top" alt="Ir. Soekarno">
+        <div class="card-body">
+          <h5 class="card-title">Ir. Soekarno</h5>
+          <p class="card-text">Presiden pertama Republik Indonesia dan proklamator kemerdekaan. Beliau dikenal sebagai orator ulung dan pemimpin revolusi.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/hatta.jfif" class="card-img-top" alt="Mohammad Hatta">
+        <div class="card-body">
+          <h5 class="card-title">Mohammad Hatta</h5>
+          <p class="card-text">Wakil Presiden pertama Indonesia dan proklamator kemerdekaan. Ia dikenal sebagai Bapak Koperasi Indonesia.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/soedirrman.jfif" class="card-img-top" alt="Jenderal Soedirman">
+        <div class="card-body">
+          <h5 class="card-title">Jenderal Soedirman</h5>
+          <p class="card-text">Panglima Besar TNI pertama yang tetap memimpin gerilya meskipun sedang sakit parah. Simbol keberanian dan pengabdian kepada bangsa.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>
+
+
+<!-- ucapan -->
+ <section id="ucapan">
+<div class="container my-5">
+  <h2 class="text-center text-danger mb-4">Form Ucapan Kemerdekaan</h2>
+  <div class="row justify-content-center">
+    <div class="col-md-8">
+      <form>
+        <div class="mb-3">
+          <label for="nama" class="form-label fw-bold">Nama Lengkap</label>
+          <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda" required>
+        </div>
+
+        <div class="mb-3">
+          <label for="email" class="form-label fw-bold">Email </label>
+          <input type="email" class="form-control" id="email" placeholder="Contoh: nama@email.com">
+        </div>
+
+        <div class="mb-3">
+          <label for="pesan" class="form-label fw-bold">Ucapan</label>
+          <textarea class="form-control" id="pesan" rows="5" placeholder="Tulis pesan Anda di sini" required></textarea>
+        </div>
+
+        <div class="d-grid">
+          <button onclick="checkForm()" type="submit" class="btn btn-danger">Kirim Ucapan</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+</section>
+
+    <!-- Footer -->
+    <footer class="bg-danger text-white text-center py-3">
+      <p class="mb-0">&copy; 2025 Website Kemerdekaan Indonesia - Dirgahayu RI ke-80</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Validasi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 400px;
+      margin: auto;
+    }
+    input, textarea, button {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Form Kontak</h2>
+  <form id="myForm">
+    <input type="text" id="nama" placeholder="Nama">
+    <input type="text" id="email" placeholder="Email">
+    <textarea id="pesan" placeholder="Pesan"></textarea>
+    <button type="submit">Kirim</button>
+  </form>
+
+  <script>
+    document.getElementById("myForm").addEventListener("submit", function(e) {
+      e.preventDefault(); // Mencegah reload halaman
+
+      const nama = document.getElementById("nama").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const pesan = document.getElementById("pesan").value.trim();
+
+const angkaRegex = /\d/; // \d artinya digit (angka 0-9)
+      if (angkaRegex.test(username)) {
+        alert("Username tidak boleh mengandung angka.");
+        return;
+      }
+
+      // Validasi: apakah semua form diisi?
+      if (nama === "" || email === "" || pesan === "") {
+        alert("Mohon isi semua form.");
+        return;
+      }
+
+      // Validasi email: harus mengandung "@"
+      if (!email.includes("@")) {
+        alert("Mohon isi email yang benar.");
+        return;
+      }
+
+      // Jika semua valid
+      alert("Pengiriman berhasil!");
+    });
+  </script>
+
+</body>
+</html>

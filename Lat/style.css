@@ -1,0 +1,58 @@
+body{
+   margin: 0;
+   padding: 0;
+   background-color: black;
+   color: black;
+}
+header{
+   display: flex;
+   height: 70px;
+   background-color:white;
+   backdrop-filter:blur(10px);
+   padding: 0 50px;
+   justify-content: space-between;
+   align-items: center;
+}
+header h1{
+   font-size: 40px;
+}
+.search-box{
+   display: flex;
+   align-items: center;
+}
+
+.search-box img{
+   width: 25px;
+   background-color: white;
+   padding: 5px 10px;
+   margin-right: -1;
+   border-top-left-radius:10px;
+   border-bottom-left-radius:10px;
+}
+.search-box input {
+   padding: 7.5px 30px;
+   background-color: lightgray;
+   outline: none;
+   border-top-right-radius:10px;
+   border-bottom-right-radius:10px;
+}
+nav{
+   display: flex;
+   justify-content:space-between;
+   width: 400px;
+}
+
+nav a{
+   text-decoration:none;
+   color: Black;
+   font-size: 20px;
+   font-weight: 700;
+   padding: 0 10px;
+   text-shadow: 0 0 15px black;
+   transition:0.4s;
+}
+
+
+nav a:hover{
+   color:red;
+}

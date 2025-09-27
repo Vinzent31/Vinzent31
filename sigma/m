@@ -1,0 +1,28 @@
+<div class="col">
+        <div class="card-group">
+  <div class="card">
+    <img src="img/bolasepak.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Proteam Bola Sepak Highlander Size 5</h5>
+      <p class="card-text">Bola sepak ukuran 5 merek Proteam.</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/basket.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Nike Hyper Grip 4P07</h5>
+      <p class="card-text">Merk bola basket yang bagus, terkenal, dan produknya tahan lama
+       Bisa digunakan dalam momen apa saja, baik indoor maupun outdoor</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="img/voli.jpeg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Mikasa Volley Ball Super Gold ｜ MV 2200</h5>
+      <p class="card-text">Bola resmi berstandar internasional untuk para profesional</p>
+      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>

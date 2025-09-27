@@ -1,0 +1,17 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+Route::get('/welcome', function () {
+    $data = [
+        ['tanggal_lahir'=> '11/06/2009', 'nama' => 'Vinzent', 'nilai' => 90],
+        ['tanggal_lahir'=> '11/06/2009', 'nama' => 'Gabriel', 'nilai' => 80],
+        ['tanggal_lahir'=> '11/06/2009', 'nama' => 'Pratama', 'nilai' => 70],
+        ['tanggal_lahir'=> '11/06/2009', 'nama' => 'Putra',   'nilai' => 60],
+    ] ;
+    return view('welcome', ['data' => $data]);
+});
+
+Route :: get ('/home', function (){
+    return view ('home');
+});
