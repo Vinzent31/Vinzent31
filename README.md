@@ -1,6 +1,8 @@
-# 👋 Hello Everyone! I'm **Vinzent**  
+# 👋 Hello Everyone! I'm **Vinzent**
 
-![mantap](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzF6aHN1MWZ0eTVldGkxZHhjdjRsY3ZmMWM4b3A4dDhrYXA5MHU1YiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BZCqzyt7lDUDS/giphy.gif)
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzF6aHN1MWZ0eTVldGkxZHhjdjRsY3ZmMWM4b3A4dDhrYXA5MHU1YiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BZCqzyt7lDUDS/giphy.gif" alt="mantap" width="100%" />
+</p>
 
 ---
 
