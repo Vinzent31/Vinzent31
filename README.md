@@ -1,21 +1,27 @@
-# Hello Everyone! I'm Vinzent 👋
+# 👋 Hello Everyone! I'm **Vinzent**  
 
 ![mantap](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYzF6aHN1MWZ0eTVldGkxZHhjdjRsY3ZmMWM4b3A4dDhrYXA5MHU1YiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/BZCqzyt7lDUDS/giphy.gif)
 
-<!--
-**Vinzent31/Vinzent31** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-Here are some ideas to get you started:
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
 
+### 🧑‍🎓 About Me  
+- 🎒 I’m a student at **SMKN 1 Purwosari**  
+- 💻 Aspiring **Fullstack Developer**  
+- 👦 Currently **16 years old**  
+- 🌱 Always learning and exploring new technologies  
 
--I am a student at **SMKN 1 Purwosari🏫**
--My dream is become a **Fulsstack Developer**💻
--I am **16 years old BTW**👦
+---
+
+### 🚀 Goals  
+- Build amazing and useful web applications  
+- Master **Frontend** and **Backend** development  
+- Collaborate with developers around the world 🌍  
+
+---
+
+### ⚡ Fun Fact  
+I love turning ideas into real projects and learning by doing!  
+
+---
+
+✨ *“Code, Learn, and Improve — Every Single Day.”*  
