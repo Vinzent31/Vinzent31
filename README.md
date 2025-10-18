@@ -8,13 +8,11 @@
 
 ### 🧑‍🎓 About Me  
 - 🎒 I’m a student at **SMKN 1 Purwosari**  
-- 💻 Aspiring **Fullstack Developer**  
 - 👦 Currently **16 years old**  
-- 🌱 Always learning and exploring new technologies  
 
 ---
 
-### 🚀 Goals  
+### 🚀 Dreams  
 - Build amazing and useful web applications  
 - Master **Frontend** and **Backend** development  
 - Collaborate with developers around the world 🌍  
