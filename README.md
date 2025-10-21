@@ -26,7 +26,7 @@ I love turning ideas into real projects and learning by doing!
 
 ✨ *“Code, Learn, and Improve — Every Single Day.”*  
 
-### 🎧 Now Playing on Spotify
+### 🎧 Spotify History
 <p align="center">
   <a href="https://spotify-recently-played-readme.vercel.app/api?user=31ptzjzlkragk54qtj5qvug77xj4">
     <img src="https://spotify-recently-played-readme.vercel.app/api?user=31ptzjzlkragk54qtj5qvug77xj4&count=3&unique=true" alt="Recently Played" />
