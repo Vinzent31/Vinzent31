@@ -10,6 +10,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](#)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](#)
+[![Facebook](https://img.shields.io/badge/Facebook-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](#)
 
 </div>
 
@@ -41,17 +42,6 @@
 **Tools & Workflow**
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
----
-
-## 📈 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=USERNAME_GITHUB_MU&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME_GITHUB_MU&layout=compact&theme=tokyonight&hide=html,css"/>
-
-</div>
 
 ---
 
